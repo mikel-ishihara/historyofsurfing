@@ -1,0 +1,45 @@
+h1, h2 {
+  font-family: 'Kufam';
+  text-align: center;
+}
+
+body {
+  background-image: url('https://static01.nyt.com/images/2020/03/06/sports/06tahiti-surfWEB1/06tahiti-surfWEB1-videoSixteenByNineJumbo1600.jpg');
+  z-index: 1;
+}
+
+p {
+  font-family: 'Grandstander';
+}
+
+.name {
+  font-family: 'Grandstander';
+  color: red;
+  position: absolute;
+  text-align: center;
+  width: 300px;
+  line-height: 300px;
+}
+
+.column {
+  float: left;
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.box {
+  border-style: solid;
+  border-color: red;
+  width: 300px;
+  height: 300px;
+  z-index: 2;
+}
+
+.row:after {
+  text-align: center;
+  content:"";
+  display: table;
+  clear: both;
+}
